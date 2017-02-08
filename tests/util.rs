@@ -12,6 +12,7 @@ use std::path::Path;
 
 pub fn foreach_html5lib_test(
         src_dir: Path,
+I think this can be &Path
         subdir: &'static str,
         ext: &'static str,
         mk: |path_str: &str, file: io::File|) {

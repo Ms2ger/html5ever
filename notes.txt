@@ -1,0 +1,5 @@
+README.md
+
+> (That said, XHTML 1.0 Transitional is also valid HTML, and other forms of XHTML are fairly rare because of compatibility issues.)
+
+This is not accurate; there is a decent body of HTML out there than claims it's XHTML 1.0 Transitional, but it's not XHTML if it's not sent as XML (which is indeed rare).

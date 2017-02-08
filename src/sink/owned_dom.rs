@@ -73,6 +73,7 @@ impl Handle {
 
     fn null() -> Handle {
         Handle::new(RawPtr::null())
+Why not ptr::null()?
     }
 
     fn is_null(&self) -> bool {

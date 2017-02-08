@@ -96,6 +96,7 @@ pub mod for_c {
 
 /// A fake `std` module so that `deriving` and other macros will work.
 /// See rust-lang/rust#16803.
+Look into
 #[cfg(for_c)]
 mod std {
     pub use core::{clone, cmp, default, fmt, option, str};

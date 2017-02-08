@@ -29,6 +29,7 @@ macro_rules! addrs_of ( ($obj:expr : $($field:ident),+) => (
         $(
             unsafe {
                 ::core::mem::transmute::<_, uint>(&$obj.$field)
+Does `as *const _ as uint` not work?
             }
         ),+
     )
